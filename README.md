@@ -102,7 +102,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 ### 📌 License
 
 This project is licensed under the MIT License.
-
-### 💡 About
-
-SkillSwap promotes collaborative learning and knowledge exchange by connecting individuals who want to teach and learn from each other.

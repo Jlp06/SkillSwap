@@ -1,88 +1,108 @@
-# Skill Swap Platform
+# 📚 SkillSwap
 
-A community platform where people exchange skills instead of money. Users can explore skills publicly, create profiles, and propose skill swaps in a structured way.
+SkillSwap is a peer-to-peer skill exchange platform where users can share their expertise, learn new skills from others, and collaborate — all without monetary transactions.
 
-## Features
+---
 
-### Guest Experience
-- Browse skills publicly without login
-- View skill categories and descriptions
-- Understand platform concept through landing page
+## 🚀 Features
 
-### User Experience
-- Complete onboarding flow
-- Manage skill profiles (offer & want to learn)
-- Browse skill marketplace with filters
-- View AI-powered match suggestions
-- Propose and manage skill swaps
-- Track active swaps and sessions
-- Give and receive feedback/ratings
-- Manage availability and preferences
+- Browse available skills and categories  
+- Create and manage personal skill profiles  
+- Explore skill connections and potential matches  
+- Send and manage skill swap requests  
+- Modern and responsive UI  
+- Built using React, TypeScript, and TailwindCSS  
 
-### UI/UX
-- Fully responsive (mobile-first design)
-- Dark/Light mode support
-- Mobile app-like navigation
-- Desktop web experience
-- Modern, clean interface with TailwindCSS
-- Smooth animations and transitions
+---
 
-## Tech Stack
+## 🧠 Motivation
 
-- **Framework**: React 18 with TypeScript
-- **Build Tool**: Vite
-- **Styling**: TailwindCSS
-- **Icons**: Lucide React
-- **Routing**: React Router v6
-- **UI Components**: Custom components with shadcn/ui patterns
+Learning new skills and sharing knowledge should be accessible to everyone. SkillSwap aims to create a collaborative environment where people can teach what they know and learn what they want — without financial barriers.
 
-## Getting Started
+---
 
-### Prerequisites
-- Node.js 18+ and npm
+## 🛠 Tech Stack
 
-### Installation
+- **Frontend:** React 18, TypeScript  
+- **Styling:** TailwindCSS  
+- **Build Tool:** Vite  
+- **Routing:** React Router  
+- **Icons:** Lucide React  
+
+---
+
+## 💻 Getting Started
+
+### 🔹 Prerequisites
+
+- Node.js (Recommended: v18 or above)
+- npm
+
+---
+
+### 📌 Installation
+
+1. Clone the repository:
 
 ```bash
-# Install dependencies
+git clone https://github.com/Jlp06/SkillSwap.git
+```
+
+2. Navigate into the project folder:
+
+```bash
+cd SkillSwap
+```
+
+3. Install dependencies:
+
+```bash
 npm install
+```
 
-# Start development server
+### 🚀 Run Development Server
+
+```bash
 npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
 ```
 
-## Project Structure
+Open your browser at:
 
-```
-src/
-├── components/        # Reusable UI components
-│   ├── ui/           # Base UI components (buttons, cards, etc.)
-│   └── layout/       # Layout components (navbar, footer, etc.)
-├── pages/            # Page components
-├── contexts/         # React contexts (auth, theme, etc.)
-├── hooks/            # Custom React hooks
-├── types/            # TypeScript type definitions
-├── utils/            # Utility functions
-└── data/             # Mock data and constants
+```bash
+[npm run dev](http://localhost:5173)
 ```
 
-## Core User Flow
+### 📂 Project Structure
 
-1. Guest → Browse Skills
-2. Login / Sign Up
-3. Onboarding (skills, availability, bio)
-4. Dashboard
-5. Browse Marketplace / View Matches
-6. Propose Skill Swap
-7. Manage Active Swaps
-8. Complete & Give Feedback
+```bash
+SkillSwap/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── utils/
+│   └── styles/
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
+```
 
-## License
+### 📦 Available Scripts
 
-MIT
+- npm run dev – Start development server
+- npm run build – Create production build
+- npm run preview – Preview production build
+
+### 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+### 📌 License
+
+This project is licensed under the MIT License.
+
+### 💡 About
+
+SkillSwap promotes collaborative learning and knowledge exchange by connecting individuals who want to teach and learn from each other.
